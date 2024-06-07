@@ -1,0 +1,46 @@
+html {
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    color: #8e5e2d;
+    background-color: #eddbc4;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#header i {
+    margin: auto 30px;
+}
+
+
+#header a {
+    text-decoration: none;
+    color: #8e5e2d;
+}
+
+#header a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8% auto;
+    width: 100%;
+}
+
+#container img:hover {
+    cursor: pointer;
+}
