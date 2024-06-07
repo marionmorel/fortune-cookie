@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="./style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Urbanist&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/9e775003d5.js" crossorigin="anonymous"></script>
         <script src="script.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
         <title>Fortune Cookie 🥠</title>
     </head>
     <body>
         <div id="header">
-            <a href="https://marionmorel.github.io"><i class="fa-regular fa-user fa-xl"></i></a>
+            <a href="https://marionmorel.github.io" title="portfolio"><i class="fa-regular fa-user fa-xl"></i></a>
             <h1>Fortune Cookie 🥠</h1>
-            <a href="https://github.com/marionmorel"><i class="fa-brands fa-github fa-xl"></i></a>
+            <a href="https://github.com/marionmorel" title="github profile"><i class="fa-brands fa-github fa-xl"></i></a>
         </div>
         <div id="container">
             <img 
                 id="cookie" 
                 src="./close_fortune_cookie.png"
+                alt="fortune cookie"
                 onclick="revealFortune()" 
             />
             <p id="fortune">Click on the cookie to reveal your fortune!</p>
